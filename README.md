@@ -34,3 +34,4 @@ Welcome! Here's some info. about me\~
 - **$\LaTeX$**, Familiar&Learning
 - **Visual Basic .NET**, Familiar
 - **Markdown**, Learning
+- **HTML&CSS&JavaScript**, Learning
