@@ -1,5 +1,6 @@
 ---
-title: 张量分解基础【1】
+redirect_from: /_posts/2023-10-08-tensor_basic
+title: 张量分解基础[1]
 tags: 张量分解
 ---
 
