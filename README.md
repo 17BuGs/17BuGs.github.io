@@ -1,6 +1,7 @@
 # Homepage
 
 Welcome! Here's some info. about me\~
+
 Click the button in the upper right corner to open the sidebar.
 
 <!-- .slide -->
