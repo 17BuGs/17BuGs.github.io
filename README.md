@@ -13,8 +13,6 @@ Welcome! Here's some info. about me\~
 
 <!-- .slide vertical=true -->
 
-- Phone
-  - **+86 18837654636**
 - QQ
   - **1710927569**
 - WeChat
@@ -34,4 +32,3 @@ Welcome! Here's some info. about me\~
 - **$\LaTeX$**, Familiar&Learning
 - **Visual Basic .NET**, Familiar
 - **Markdown**, Learning
-- **HTML&CSS&JavaScript**, Learning
