@@ -21,16 +21,13 @@ Click the button in the upper right corner to open the sidebar.
   - **\_17BuGs**
 - E-mail:
   - **[17BuGs.Elaina@gmail.com](mailto:17BuGs.Elaina@gmail.com)**
-  - **[20213001707@hainanu.edu.cn](mailto:20213001707@hainanu.edu.cn)**
 
 <!-- .slide -->
 
 ## Toolchains
 
-- **C/C++**, Proficient&Learning
+- **C/C++**, Proficient
 - **Java**, Proficient
-- **Python**, Familiar&Learning
+- **Python**, Proficient
 - **Matlab**, Familiar
-- **$\LaTeX$**, Familiar&Learning
-- **Visual Basic .NET**, Familiar
-- **Markdown**, Learning
+- **$\LaTeX$**, Familiar
