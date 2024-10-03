@@ -178,7 +178,7 @@ tags: 经验分享
   当时被问完这些问题感觉整个垮掉...巨难...但是就结果来说意外地挺好，拿到了学硕的名额（真是amazing啊），或许是其他同学也答不上来hhhhh，所以遇到压力不要慌！
   <div align=center>
   <img src="/assets/images/baoyan/uestc_env_1.png" width = "50%"/>
-  <p style="margin-left: 0; padding-left: 0;">成电校园环境</p>
+  <p style="text-align: center">成电校园环境</p>
   </div>
 
 #### 总结
