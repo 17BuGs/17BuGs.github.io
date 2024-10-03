@@ -185,7 +185,7 @@ tags: 经验分享
 
 最终选择了成电信软学院的SE学硕，也是从夏令营开始就保持联系的一个老师了，来到这里也是意料之中。该说是缘分吗，成电的这位老师是最早面试我的一位老师，也是我预推免中的最后一站和最终去向，可以说贯穿了我的整个推免历程。所以说联系老师一定要趁早！贴一张结算页面\~
   <div align=center>
-  <img src="/assets/images/baoyan/final.png" width = "50%"/>
+  <img src="/assets/images/baoyan/final.png" width = "60%"/>
   </div>
 
 总结一下推免的经验：
