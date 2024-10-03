@@ -1,6 +1,6 @@
 ---
 redirect_from: /_posts/tuimian
-title: 2024年计算机保研经验分享 | 末2上岸成电SE | 中山AI/东南SE/西工大无人/华师SE/成电SE等
+title: 2024年计算机保研经验分享（末2上岸成电SE）
 tags: 经验分享
 ---
 
