@@ -30,4 +30,3 @@ Click the button in the upper right corner to open the sidebar.
 - **Java**, Proficient
 - **Python**, Proficient
 - **Matlab**, Familiar
-- **$\LaTeX$**, Familiar
