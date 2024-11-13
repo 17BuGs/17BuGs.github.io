@@ -42,9 +42,13 @@ python版本是3.8，PyTorch版本2.1.0，对应CUDA版本用的是11.8。(不�
 又报错：
 
 > ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+> 
 > pcdet 0.6.0+ad8172a requires easydict, which is not installed.
+> 
 > pcdet 0.6.0+ad8172a requires llvmlite, which is not installed.
+> 
 > pcdet 0.6.0+ad8172a requires numba, which is not installed.
+> 
 > pcdet 0.6.0+ad8172a requires tensorboardX, which is not installed.
 
 依次安装上面这些库：`pip install easydict llvmlite numba tensorboardX`，之后再安装`scikit-image`，显示已经安装。
@@ -52,6 +56,7 @@ python版本是3.8，PyTorch版本2.1.0，对应CUDA版本用的是11.8。(不�
 之后再运行：`python setup.py develop`，显示：
 
 > Using /home/icdm/anaconda/envs/wfmamba/lib/python3.8/site-packages
+> 
 > Finished processing dependencies for pcdet==0.6.0+ad8172a`
 
 说明OpenPCDet安装成功了。
