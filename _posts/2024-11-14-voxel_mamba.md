@@ -17,6 +17,8 @@ python版本是3.8，PyTorch版本2.1.0，对应CUDA版本用的是11.8。(不�
 
 `conda create -n wfmamba python=3.8`
 
+`conda activate wfmamba`
+
 `conda install pytorch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 pytorch-cuda=11.8 -c pytorch -c nvidia`
 
 ##### clone github仓库
