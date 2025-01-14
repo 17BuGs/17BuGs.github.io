@@ -14,6 +14,7 @@ tags: 经验分享
 使用`nvidia-smi --query-compute-apps=pid,used_memory --format=csv`，可以看到详细的`pid`进程号和占用的显存。输出：
 
 > pid, used_gpu_memory [MiB]
+> 
 > 4135549, 7242 MiB
 
 但是当使用`kill -9 4135549`，输出：
