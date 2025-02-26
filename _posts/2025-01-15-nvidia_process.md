@@ -26,7 +26,3 @@ tags: 经验分享
 最后，使用命令`pkill -u [username] python`，杀掉指定用户的所有`python`程序。使用`nvidia-smi`，发现被占用的显存回来了。
 
 完。
-
-##### 复盘
-
-可能是VSCode之前崩过一次，留下的僵尸进程。
