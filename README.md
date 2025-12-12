@@ -24,5 +24,5 @@ My research focuses on:
 
 ## Publications
 
-[1] MoCoPCI: Inter-frame motion correlation guided efficient 3D point cloud interpolation, Pattern Recognition, 2025
-[2] Beyond Pillars: Advancing 3D Object Detection with Salient Voxel Enhancement of LiDAR-4D Radar Fusion, Pattern Recognition, 2025
+1. MoCoPCI: Inter-frame motion correlation guided efficient 3D point cloud interpolation, Pattern Recognition, 2025
+2. Beyond Pillars: Advancing 3D Object Detection with Salient Voxel Enhancement of LiDAR-4D Radar Fusion, Pattern Recognition, 2025
