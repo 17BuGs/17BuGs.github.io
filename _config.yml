@@ -673,14 +673,12 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/gh/hifocus/merger@0.26.1/assets/styles/spectre.css/spectre-modified.min.css,gh/hifocus/merger@0.26.1/assets/styles/style.min.css">
               <script defer="defer" src="https://cdn.jsdelivr.net/combine/npm/jquery@3.5.1"></script>
               <script defer="defer" src="https://cdn.jsdelivr.net/combine/gh/lrsjng/jquery-qrcode@0.18.0/dist/jquery-qrcode.min.js,npm/blueimp-md5@2.18.0/js/md5.min.js,gh/hifocus/merger@0.26.1/assets/js/function.min.js,gh/hifocus/merger@0.26.1/assets/js/font_974919_xgtacm93vxp.min.js"></script>
-        home: # 展示页的配置可跳过，详见<https://revealjs.com/>
+        home: # 展示页的配置
           append_to_section_tag:
             - key: data-markdown
             - key: data-separator # 水平展示页分隔符
-              value: <!-- .slide -->
-            - key: data-separator-vertical # 垂直展示页分隔符
-              value: <!-- .slide vertical=true -->
-            - key: data-background-color
+              value: - key: data-separator-vertical # 垂直展示页分隔符
+              value: - key: data-background-color
               value: "White"
           prepend: |
             <link
@@ -715,6 +713,100 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 plugins: [ RevealMarkdown,RevealMath.KaTeX ]
               });
             "></script>
+            
+            <canvas id="christmas-canvas" style="position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:1;"></canvas>
+            <script>
+              (function() {
+                var canvas = document.getElementById('christmas-canvas');
+                var ctx = canvas.getContext('2d');
+                var width = window.innerWidth;
+                var height = window.innerHeight;
+                canvas.width = width;
+                canvas.height = height;
+                
+                var particles = [];
+                var particleCount = 100; // Number of snowflakes
+
+                function initParticles() {
+                  for (var i = 0; i < particleCount; i++) {
+                    particles.push({
+                      x: Math.random() * width,
+                      y: Math.random() * height,
+                      r: Math.random() * 3 + 1, // Radius
+                      d: Math.random() * particleCount, // Density
+                      color: Math.random() > 0.95 ? "255, 0, 0" : (Math.random() > 0.9 ? "0, 255, 0" : "200, 200, 255") // Mostly snow, rare red/green lights
+                    });
+                  }
+                }
+
+                function draw() {
+                  ctx.clearRect(0, 0, width, height);
+                  ctx.fillStyle = "rgba(255, 255, 255, 0.8)";
+                  ctx.beginPath();
+                  for (var i = 0; i < particleCount; i++) {
+                    var p = particles[i];
+                    // Create gradient for soft snow look
+                    var gradient = ctx.createRadialGradient(p.x, p.y, 0, p.x, p.y, p.r);
+                    if(p.color.startsWith("200")) {
+                        // Snow color
+                        gradient.addColorStop(0, "rgba(255, 255, 255, 0.9)");
+                        gradient.addColorStop(1, "rgba(255, 255, 255, 0)");
+                    } else {
+                        // Christmas lights colors
+                        gradient.addColorStop(0, "rgba(" + p.color + ", 0.9)");
+                        gradient.addColorStop(1, "rgba(" + p.color + ", 0)");
+                    }
+                    
+                    ctx.fillStyle = gradient;
+                    ctx.globalCompositeOperation = 'lighter'; // Sparkle effect
+                    ctx.beginPath();
+                    ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2, true);
+                    ctx.fill();
+                  }
+                  update();
+                }
+
+                var angle = 0;
+                function update() {
+                  angle += 0.01;
+                  for (var i = 0; i < particleCount; i++) {
+                    var p = particles[i];
+                    // Updating X and Y coordinates
+                    // We add 1 + Math.cos to create the swaying motion
+                    p.y += Math.cos(angle + p.d) + 1 + p.r / 2;
+                    p.x += Math.sin(angle) * 2;
+
+                    // Sending flakes back from the top when it exits
+                    if (p.x > width + 5 || p.x < -5 || p.y > height) {
+                      if (i % 3 > 0) // 66.67% of the flakes
+                      {
+                        particles[i] = { x: Math.random() * width, y: -10, r: p.r, d: p.d, color: p.color };
+                      } else {
+                        // If the flake is exitting from the right
+                        if (Math.sin(angle) > 0) {
+                          // Enter from the left
+                          particles[i] = { x: -5, y: Math.random() * height, r: p.r, d: p.d, color: p.color };
+                        } else {
+                          // Enter from the right
+                          particles[i] = { x: width + 5, y: Math.random() * height, r: p.r, d: p.d, color: p.color };
+                        }
+                      }
+                    }
+                  }
+                }
+
+                initParticles();
+                setInterval(draw, 33);
+
+                // Handle resize
+                window.addEventListener('resize', function() {
+                    width = window.innerWidth;
+                    height = window.innerHeight;
+                    canvas.width = width;
+                    canvas.height = height;
+                });
+              })();
+            </script>
 
 compress_html: # <https://github.com/penibelst/jekyll-compress-html>
   clippings: all
