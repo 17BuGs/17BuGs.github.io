@@ -1,4 +1,4 @@
-# BuG_17's Homepage
+## BuG_17's Homepage
 
 Hi! BuG_17 (Feng Wu) here\~
 
