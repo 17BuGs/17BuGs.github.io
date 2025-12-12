@@ -1,32 +1,28 @@
-# Homepage
+# BuG_17's Homepage
 
-Welcome! Here's some info. about me\~
+Hi! BuG_17 (Feng Wu) here\~
 
-Click the button in the upper right corner to open the sidebar.
+I’m currently studying for a master's degree at University of Electronic Science and Technology of China (UESTC).
+
+My research focuses on:
+
+- autonomous driving;
+- point cloud (object detection, segmentation, etc.).
 
 <!-- .slide -->
 
 ## Contact
 
 - Address
-  - **Hainan University - 58 Renmin Rd. - Haikou, China**
+  - **University of Electronic Science and Technology of China, No.4, Section 2, North Jianshe Road, Chengdu, China**
 - Site
   - **<https://17BuGs.github.io>**
-
-<!-- .slide vertical=true -->
-
-- QQ
-  - **1710927569**
-- WeChat
-  - **\_17BuGs**
 - E-mail:
   - **[17BuGs.Elaina@gmail.com](mailto:17BuGs.Elaina@gmail.com)**
 
-<!-- .slide -->
+<!-- .slide vertical=true -->
 
-## Toolchains
+## Publications
 
-- **C/C++**, Proficient
-- **Java**, Proficient
-- **Python**, Proficient
-- **Matlab**, Familiar
+[1] MoCoPCI: Inter-frame motion correlation guided efficient 3D point cloud interpolation, Pattern Recognition, 2025
+[2] Beyond Pillars: Advancing 3D Object Detection with Salient Voxel Enhancement of LiDAR-4D Radar Fusion, Pattern Recognition, 2025
