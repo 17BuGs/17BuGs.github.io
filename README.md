@@ -18,7 +18,7 @@ My research focuses on:
 - Site
   - **<https://17BuGs.github.io>**
 - E-mail:
-  - **[17BuGs.Elaina@gmail.com](mailto:17BuGs.Elaina@gmail.com)**
+  - **[17bugs.elaina@gmail.com](mailto:17bugs.elaina@gmail.com)**
 
 <!-- .slide vertical=true -->
 
@@ -26,3 +26,6 @@ My research focuses on:
 
 1. MoCoPCI: Inter-frame motion correlation guided efficient 3D point cloud interpolation, Pattern Recognition, 2025
 2. Beyond Pillars: Advancing 3D Object Detection with Salient Voxel Enhancement of LiDAR-4D Radar Fusion, Pattern Recognition, 2025
+<br>
+<br>
+*Click the button in the top-right corner to open the sidebar.*
