@@ -17,7 +17,7 @@ My research focuses on:
   - **University of Electronic Science and Technology of China, No.4, Section 2, North Jianshe Road, Chengdu, China**
 - Site
   - **<https://17BuGs.github.io>**
-  - [Google Scholar](https://scholar.google.com/citations?user=iU13ZmwAAAAJ)
+  - **[Google Scholar](https://scholar.google.com/citations?user=iU13ZmwAAAAJ)**
 - E-mail:
   - **[17bugs.elaina@gmail.com](mailto:17bugs.elaina@gmail.com)**
 
