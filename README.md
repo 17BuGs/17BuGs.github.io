@@ -19,6 +19,7 @@ My research focuses on:
   - **<https://17BuGs.github.io>**
 - E-mail:
   - **[17bugs.elaina@gmail.com](mailto:17bugs.elaina@gmail.com)**
+- [Google Scholar](https://scholar.google.com/citations?user=iU13ZmwAAAAJ)
 
 <!-- .slide vertical=true -->
 
