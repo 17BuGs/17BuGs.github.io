@@ -17,8 +17,6 @@ My research focuses on:
   - **University of Electronic Science and Technology of China, No.4, Section 2, North Jianshe Road, Chengdu, China**
 - Site
   - **<https://17BuGs.github.io>**
-- Google Scholar
-  - **<https://scholar.google.com/citations?user=iU13ZmwAAAAJ>**
 - E-mail:
   - **[17bugs.elaina@gmail.com](mailto:17bugs.elaina@gmail.com)**
 
@@ -29,5 +27,5 @@ My research focuses on:
 1. MoCoPCI: Inter-frame motion correlation guided efficient 3D point cloud interpolation, Pattern Recognition, 2025
 2. Beyond Pillars: Advancing 3D Object Detection with Salient Voxel Enhancement of LiDAR-4D Radar Fusion, Pattern Recognition, 2025
 <br>
-<br>
-*Click the button in the top-right corner to open the sidebar.* -->
+<br> -->
+*Click the button in the top-right corner to open the sidebar.*
