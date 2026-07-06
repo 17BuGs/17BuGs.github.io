@@ -1,8 +1,6 @@
-# Ignore docs files
-_gh_pages
-_site
-.ruby-version
-.jekyll-metadata
+# Build output and dependencies
+dist
+node_modules
 
 # Numerous always-ignore extensions
 *.diff
@@ -40,7 +38,4 @@ validation-status.json
 validation-report.json
 
 # Folders to ignore
-.bundle
-vendor
-node_modules
 bower_components
